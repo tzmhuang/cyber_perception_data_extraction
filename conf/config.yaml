@@ -1,0 +1,9 @@
+BAG_READER:
+  DTYPE_LIST:
+    - apollo.perception.PerceptionObstacles
+    - apollo.localization.LocalizationEstimate
+  SAVE_DIR: ./data
+  DEBUG_MODE: False
+
+PROTO_PARSER:
+  DEBUG_MODE: False
